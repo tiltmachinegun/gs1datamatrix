@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         DataMatrix Scanner
 // @namespace    http://tampermonkey.net/
-// @version      2.3.0
+// @version      3.0
 // @description  Скриншотер и сканер DataMatrix/QR кодов. Отправляет изображение на локальный сервер для распознавания.
 // @author       t.me/tiltmachinegun
+// @downloadUrl  https://raw.githubusercontent.com/tiltmachinegun/gs1datamatrix/refs/heads/main/gs1datamatrix.js
+// @updateUrl    https://raw.githubusercontent.com/tiltmachinegun/gs1datamatrix/refs/heads/main/gs1datamatrix.js
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_registerMenuCommand
@@ -1359,3 +1361,4 @@
     checkServerHealth();
 
 })();
+
